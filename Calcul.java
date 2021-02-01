@@ -16,9 +16,6 @@ public class Calcul {
     }
 
     public static double division(int n1, int n2){
-        if (n2 != 0)
-            return (double)n1 / (double)n2;
-        else
-            return 0;
+        return (double)n1 / (double)n2;
     }
 }
